@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /out/
+/.open-next/
 
 # production
 /build
@@ -42,6 +43,4 @@ next-env.d.ts
 
 .git
 
-*.log
-
-/buzworthy
+*.log

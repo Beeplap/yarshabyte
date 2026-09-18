@@ -98,10 +98,10 @@ Guidance:
 - There are several custom hooks (hooks/) for smooth scrolling and pointer interactions. Respect reduced-motion settings when adding animations.
 
 ## Building & Deployment
-- Build: `pnpm run build` (or `npm run build`)
+- Cloudflare Workers build: `pnpm run build`
+- Local Next.js build: `pnpm run build:local`
 - Start production server: `pnpm run start`
-
-Recommended: deploy to Vercel for zero-config Next.js hosting.
+- Cloudflare Deploy: `pnpm run deploy`
 
 
 ## Author
